@@ -1,0 +1,1 @@
+{"atIdx":693,"error":"ERROR: duplicate key value violates unique constraint \"unique_caregap_clinify_when_subcaregap_null\"\n  Detail: Key (caregap_id, clinify_id)=(23497, 559925) already exists.; SQLState: 23505"}
