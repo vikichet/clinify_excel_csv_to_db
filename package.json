@@ -1,5 +1,9 @@
 {
-  "dependencies": {
+  "scripts": {
+    "run:caregap": "tsc && node dist/caregap_to_db.js",
+    "run:formatroster": "node format_payer_roster.js"
+  },
+    "dependencies": {
     "@aws-sdk/client-rds-data": "^3.616.0",
     "axios": "^1.6.5",
     "kysely": "^0.27.4",
